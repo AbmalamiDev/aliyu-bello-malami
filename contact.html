@@ -3,26 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Me</title>
+    <meta name="description" content="Contact Aliyu Bello by email, phone, WhatsApp, GitHub, or Facebook.">
+    <meta property="og:title" content="Contact Aliyu Bello">
+    <meta property="og:description" content="Get in touch with Aliyu Bello, Computer Science student and aspiring full-stack web developer.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="[ADD YOUR SOCIAL PREVIEW IMAGE URL]">
+    <title>Contact Me | Aliyu Bello</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
-<body>
-
-    <h1>Contact Me</h1>
-    
-    <p>Name: Aliyu Bello</p>
-    <p>Email: <a href="mailto:aliyubellomalami@gmail.com">aliyubellomalami@gmail.com</a></p>
-    <p>Phone: 08123404145</p>
-
-    <h2>Social Links</h2>
-
-    <p><a href="https://github.com/AbmalamiDev">Github</a></p>
-    <p><a href="https://www.facebook.com/aliyubellomalami">Facebook</a></p>
-
-    <a href="index.html">Home</a>
-
-    <footer>
-        <p>&copy; 2026 Aliyu Bello</p>
-    </footer>
-    
-</body>
+<body id="top">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header"><div class="header-inner"><a class="logo" href="index.html" aria-label="Aliyu Bello home">Aliyu Bello<span>.</span></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" aria-label="Open navigation"><span></span><span></span></button><nav class="site-nav" id="site-navigation" aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="project.html">Projects</a><a href="contact.html" aria-current="page">Contact</a></nav></div></header>
+    <main id="main-content">
+        <section class="page-intro container" data-reveal><p class="eyebrow">Contact</p><h1>Let’s start a conversation.</h1><p class="lede">Have a question, an idea, or just want to say hello? I’d be glad to hear from you.</p></section>
+        <section class="section container contact-layout">
+            <div class="contact-aside" data-reveal><p class="eyebrow">Get in touch</p><h2>Reach me directly.</h2><p class="muted-copy">Choose whichever channel works best for you.</p><div class="contact-details"><div class="contact-item"><span class="contact-label">Email</span><a href="mailto:aliyubellomalami@gmail.com">aliyubellomalami@gmail.com</a></div><div class="contact-item"><span class="contact-label">Phone</span><a href="tel:+2348123404145">08123404145</a></div><div class="contact-item"><span class="contact-label">Location</span><span>Kano, Nigeria</span></div><div class="contact-item"><span class="contact-label">Social</span><div class="social-links"><a href="https://github.com/AbmalamiDev" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a><a href="https://www.facebook.com/aliyubellomalami" target="_blank" rel="noreferrer">Facebook <span aria-hidden="true">↗</span></a></div></div></div><a class="button whatsapp-button" href="https://wa.me/2348123404145" target="_blank" rel="noreferrer">Chat on WhatsApp <span aria-hidden="true">↗</span></a></div>
+            <div class="form-panel" data-reveal><h2>Send a message</h2><p class="form-note">This form currently validates your message in the browser only. It does not send or store messages yet.</p><form id="contact-form" novalidate><div class="field-row"><div class="form-field"><label for="full-name">Full name</label><input id="full-name" name="name" type="text" autocomplete="name" required minlength="2" aria-describedby="name-error"><span class="field-error" id="name-error"></span></div><div class="form-field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required aria-describedby="email-error"><span class="field-error" id="email-error"></span></div></div><div class="form-field"><label for="subject">Subject</label><input id="subject" name="subject" type="text" required minlength="3" aria-describedby="subject-error"><span class="field-error" id="subject-error"></span></div><div class="form-field"><label for="message">Message</label><textarea id="message" name="message" rows="5" required minlength="10" aria-describedby="message-error"></textarea><span class="field-error" id="message-error"></span></div><button class="button submit-button" type="submit">Send Message <span aria-hidden="true">→</span></button><p class="form-status" id="form-status" role="status" aria-live="polite"></p></form></div>
+        </section>
+        <!-- Add and display only when active: LinkedIn [ADD YOUR LINKEDIN], Instagram [ADD YOUR INSTAGRAM], X [ADD YOUR X URL], TikTok [ADD YOUR TIKTOK], YouTube [ADD YOUR YOUTUBE]. Replace WhatsApp, email, and phone URLs above if they change. -->
+        <section class="cta-section container" data-reveal><div><p class="eyebrow">Prefer a quick chat?</p><h2>I’m one message away.</h2><p>Reach out directly by email or WhatsApp.</p></div><div class="button-row"><a class="button button-light" href="mailto:aliyubellomalami@gmail.com">Email me <span aria-hidden="true">↗</span></a><a class="button button-light outline-light" href="https://wa.me/2348123404145" target="_blank" rel="noreferrer">WhatsApp <span aria-hidden="true">↗</span></a></div></section>
+    </main>
+    <footer class="site-footer"><div class="container footer-main"><div class="footer-brand"><a class="logo" href="index.html">Aliyu Bello<span>.</span></a><p>Computer Science student learning to build useful, thoughtful web experiences.</p></div><div class="footer-column"><h2>Navigate</h2><a href="index.html">Home</a><a href="about.html">About</a><a href="project.html">Projects</a><a href="contact.html">Contact</a></div><div class="footer-column"><h2>Connect</h2><a href="https://github.com/AbmalamiDev" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a><a href="https://www.facebook.com/aliyubellomalami" target="_blank" rel="noreferrer">Facebook <span aria-hidden="true">↗</span></a><a href="mailto:aliyubellomalami@gmail.com">Email me</a><a href="https://wa.me/2348123404145" target="_blank" rel="noreferrer">WhatsApp</a></div></div><div class="container footer-bottom"><span>© 2026 Aliyu Bello</span><a class="back-to-top" href="#top">Back to top ↑</a></div></footer>
+    </body>
 </html>
